@@ -1,0 +1,21 @@
+html,body{
+    margin: 0%;
+    padding: 0%;
+}
+.wrapper{
+    width: 1200px;
+    display: grid;
+   
+
+    grid-template-columns:400px 400px 400px;
+    grid-template-rows: auto;
+    background-image: linear-gradient(to right, #f0ccff 60%, #ffffff);
+
+   
+    }
+
+img{
+
+    width: 400px;
+}
+    

@@ -1,0 +1,174 @@
+
+html{
+
+    background-image: linear-gradient(to right, #f0ccff 60%, #ffffff);
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    font-family:'Gowun Batang';
+   
+}
+
+header{
+    box-sizing: border-box;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    
+
+}
+h1{
+    font-size: 140px;
+}
+span{
+    font-size:100px;
+    color: rgb(0, 0, 0);
+}
+a{
+    color: black;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.nav{
+    margin: 20px;
+    font-size:40px;
+    list-style: none;
+
+
+}
+
+h2{
+    text-align: center;
+    font-size:40px;
+
+}
+h3{
+    text-align: center;
+    box-sizing: border-box;
+    background-color: #f0ccff;
+}
+h4,a{
+    text-align: center;
+  
+   
+}
+
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+}
+section{
+    box-sizing: border-box;
+    background-color: white;
+    padding: 30px;
+    width: 60vw;
+    border-radius: 20px;
+    line-height: 2em;
+    text-align:justify;
+    box-shadow: 3px 3px 10px 10px rgb(212, 176, 226) ;
+}
+
+#school{
+    margin-top: 10% ;
+}
+
+
+table{
+    border-collapse: collapse;
+
+    
+}
+
+th,td{
+    border: solid #f0ccff;
+    padding: 1%;
+   }
+
+th{
+    background-color: rgb(224, 217, 244);
+}
+
+caption{
+    font-size: 20px;
+    padding: 5px;
+    font-weight:bold
+}
+
+th{
+    text-align: center;
+    width:260px;
+    
+}
+
+.classTable{
+
+    border-radius: 2%;
+}
+
+
+.club{
+    text-align: center;
+}
+
+
+
+#club{
+display: grid;
+column-gap: 10px;
+row-gap: 10px;
+grid-template-columns:1fr 1fr 1fr;
+grid-template-rows: 1fr 1fr;
+overflow: auto;
+}
+
+
+#container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+.kuisAct{
+    
+    box-sizing: border-box;
+    background-color: #f0ccff;
+    border-radius: 50% ;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    box-shadow: 0.5px 2px 5px 3px rgb(87, 58, 99);
+    margin: 5px;
+}
+
+
+iframe{
+    margin-top: 5%;
+}
+
+
+a:hover {
+    color: rgb(184, 35, 35);
+
+
+
+}

@@ -1,0 +1,21 @@
+body{
+    background-image: linear-gradient(to right, #f0ccff 60%, #ffffff);
+    font-family:'Gowun Batang';
+
+}
+
+form{
+    text-align: center;
+}
+
+textarea{
+    width:90%;
+
+}
+
+a:hover {
+    color: rgb(184, 35, 35);
+
+
+
+}

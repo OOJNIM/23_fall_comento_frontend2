@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="introduction" content="about me Minjoo Seo">
+    <title>About Minjooseo</title>
+
+    <link rel="stylesheet" href="contactme.css" >
+    <link rel="icon" href="imgs/android-chrome-192x192.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bagel+Fat+One&family=Gowun+Batang:wght@700&family=Stylish&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h3>민주한테 연락하기</h3>
+            
+            <form action="https://httpbin.org/get" method ="get">
+                <fieldset>
+                    <legend>당신은 누구인가요?</legend> 
+   
+                <p>
+
+                <label for="visitorName">당신의 이름:</label>
+                <input type="text" name="visitorName" id="visitorName" placeholder="홍길동" autocomplete="on" required >
+                </p>
+                <p>
+                <label for="phoneNumber">당신의 전화번호:</label>
+                <input type="tel" name="phoneNumber" id="phoneNumber" placeholder="010-1234-5678" 
+                pattern="[0-9]{3}-[0-9]{4}-[0-9]{4}"
+                required >
+                </p>
+                <p>
+                    <label for="job">당신의 직업</label>
+                <select name="job" id="job" multiple size="5">
+                        <option value="elementary">초등학생</option>
+                        <option value="middle">중학생</option>
+                        <option value="high">고등학생</option>
+                        <option value="uni" selected>대학생</option>
+                        <option value="worker" >
+                            직장인
+                        </option>
+                        <option value="seeker">
+                            취업준비생
+                        </option>
+                        <option value="others">
+                            기타
+                        </option>
+                </select>
+                </p>
+                <fieldset>
+                    <legend>
+                        하고싶은 말을 남겨줘요
+                    </legend>
+                    <label for="message"></label>
+                    <textarea name="message" id="message" cols="30" rows="10" placeholder="저에게 하고 싶은 말을 남겨주세요"></textarea>
+                </fieldset>
+                <br>
+                <button type="submit" formaction="https://httpbin.org/post" formmethod="post">제출하기</button>
+                <button type="reset">리셋하기 </button>
+                </form>
+
+
+                <p>
+                    <a href="week1.html">메인페이지로 돌아가기</a>
+                </p>
+</body>
+</html>

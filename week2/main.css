@@ -1,0 +1,26 @@
+body{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: grey;
+}
+
+#wrapper{
+    background-color: green ;
+    width: 500px;
+    height: 600px;
+}
+
+#displayBoard{
+    display: relative;
+    margin: 25px  ;
+    background-color: white;
+    width: 450px;
+    height: 300px;
+}
+
+#advertiseArea {
+    display: relative;
+    back
+}

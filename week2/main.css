@@ -6,8 +6,8 @@ body{
     font-family:'Black Han Sans' ;
     color: #103447 ;
  
-
 }
+
 
 #wrapper{
     width: 400px;
@@ -28,10 +28,7 @@ body{
     justify-content: space-around;
     align-items: center;
     box-shadow: 3px 3px 7px 7px #103447 inset  ;
-
-
 }
-
 
 .row{
     margin-left: 30px;
@@ -57,8 +54,11 @@ button:hover{
     width: 350px;
     height: 100px;
     background-color: #9BBEC8;
-    margin: 25px;
+    margin: 10px;
+    margin-left: 25px;
 }
+
+
 
 
 img{
@@ -79,11 +79,12 @@ iframe{
     display: relative;
     width: 150px;
     height: 100px;
-    margin-left: 23px;
+    margin-left: 25px;
 }
 
 
 #digitalDisplay{
+    padding-top: 5px;
     width: 50px;
     background-color: #A1CCD1;
     height: 30px;
@@ -93,6 +94,7 @@ iframe{
 
 }
 #money{
+    padding-top: 10px;
     width: 100px;
     height: 50px;
     background-color: #A1CCD1;
